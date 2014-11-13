@@ -1,0 +1,87 @@
+My test presentation
+========================================================
+author: Hideh Tobita
+date: `r date()`
+transition: concave
+navigation: slide
+
+enable caching globally
+```{r setup, include=FALSE}
+opts_chunk$set(cache=TRUE)
+```
+
+
+
+First Slide
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Slide without Title
+========================================================
+title: false
+
+1. no title
+2. title: false
+
+Slide With Image Left
+====================================
+![alt text](bigorb.png)
+***
+This text will appear to the right
+
+Mathematical presnetation
+====================================
+
+The arithmetic mean is equal to $\frac{1}{n} \sum_{i=1}^{n}x_{i}$
+
+Two-Column Slide
+====================================
+
+
+Two-Column Slide
+====================================
+left: 70%
+First column
+***
+Second column
+
+New Section
+====================================
+type: section
+
+Prompt Slide
+====================================
+type: prompt
+
+My Slide
+====================================
+incremental: true
+
+a
+b
+c
+
+
+
+
+
